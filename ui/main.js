@@ -1,14 +1,14 @@
-console.log('Loaded!');
-
-//move the image
-var img=document.getElementById("madi");
-var marginLeft=0;
-function moveRight()
+var button=document.getElementById("counter");
+button.onclick=function()
 {
-   marginLeft=marginLeft+5;
-   img.style.marginLeft=marginLeft +'px';
-}
-img.onclick=function(){
-    var interval=setInterval(moveRight,50);
-   
+    //make a request
+    
+    //capture the request
+    
+    
+    //render the variable to correct span
+    counter=counter+1;
+    var span=document.getelementById("counter");
+    span.innerHTML=counter.toString();
+    
 };
