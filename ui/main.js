@@ -26,3 +26,41 @@ button.onclick=function()
     request.open('GET','http://kvlsspravallika.imad.hasura-app.io/counter',true);
     request.send(null);
 };
+//submit name
+var nameInput=document.getElementById('name');
+var name=nameInput.value();
+var submit=documn=ent.getelemnetById('submit_btn');
+submit.onclick=function(){
+    
+    
+    var name=['name1','name2','namae3'];
+    var list='';
+    for(var i=0;i<names.length();i++){
+        list+='<li>'+names[i]+'</li';
+        
+    }
+    var ul=documnet.getElementById('namelist');
+    ul.innerHTML=list;
+    
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
